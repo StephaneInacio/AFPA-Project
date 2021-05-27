@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<meta charset="utf-8">
+
+<title>Exo phase 8</title>
+
+<form action="http://bienvu.net/script.php" method="get">
+    
+    * Ces zones sont obligatoires
+    <p>
+        <fieldset>
+            
+            <legend>Vos coordonnées</legend>
+            <label for="nom">Votre nom* : </label><input type="text" name="nom" id="?"><br>
+            <label for="nom">Votre prénom* : </label><input type="text" name="nom" id="?"><br>
+            <label for="nom">Sexe* : </label><input type="radio" name="couleur" value="Bleu"> Féminin
+            <input type="radio" name="couleur" value="Rouge"> Masculin<br> 
+            <label for="date">Date de naissance* : </label><input type="date" name="ddn" id="date"><br>
+            <label for="nom">Code postal* : </label><input type="text" name="nom" id="?"><br>
+            <label for="nom">Adresse : </label><input type="text" name="nom" id="?"><br>
+            <label for="nom">Ville : </label><input type="text" name="nom" id="?"><br>
+            <label for="?">Email* : </label><input type="email" name="email" value="dave.loper@afpa.fr"><br>
+            
+           
+        </fieldset> 
+    </p>
+
+    <p>
+        <fieldset>
+            <legend>Votre demande</legend>
+            <label for="couleur">Sujet* : </label>
+            <select id="couleur"> 
+                <option value="" selected>Veuillez sélectionner un sujet</option>
+                <option value="Bleu">Mes commandes</option>
+                <option value="Rouge">Question sur un produit</option>
+                <option value="Vert">Réclamation</option>
+                <option value="Vert">Autres</option>
+            </select><br>
+
+            <label for="nom">Votre question* : </label><textarea name="commentaire" rows="2" cols="20"></textarea>
+        
+        </fieldset>
+    </p>
+
+    <p>
+        <input type="checkbox" name="couleur" value="Bleu"><label for="nom">* J'accepte le traitement informatique de ce formulaire:</label><br>
+    </p>
+    
+<button type="submit">Envoyer</button><button type="reset">Annuler</button>
